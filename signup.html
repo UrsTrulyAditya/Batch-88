@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Signup Page</title>
+  <Style>
+    body{
+  margin: 0;
+  padding: 0;
+  font-family: serif;
+  background: white;
+  height:100vh;
+  overflow: hidden;
+
+}
+
+.center {
+  background: cyan;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  width: 400px;
+  color: white;
+  font-weight: normal;
+
+}
+
+.form {
+  position: relative;
+  z-index: 1;
+  background: cyan;
+  max-width: 360px;
+  margin: 0 auto 100px;
+  padding: 45px;
+  text-align: center;
+}
+.form input {
+  font-family: "Roboto", sans-serif;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 18px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+.form button {
+  font-family: sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: #00ebcc;
+  width: 100%;
+  border: 0;
+  padding: 18px;
+  color: #FFFFFF;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+
+  </Style>
+
+</head>
+<body>
+<div class="center">
+  <p style="font-size: 50px;">- Visitor -</p>
+  <div class="form">
+    <form class="login-form">
+      <input type="text" placeholder="Full name"/>
+      <input type="password" placeholder="Email"/>
+      <input type="text" placeholder="Organization"/>
+      <button>SIGN UP</button>
+      <p></p>
+      <button>RETURN</button>
+    </form>
+  </div>
+</div>
+</body>
+</html>
